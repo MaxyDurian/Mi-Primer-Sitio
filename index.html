@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" width="device-width" , initial scale="1,0">
+        <meta name="viewport">
+        <link rel="stylesheet" href="style.css">
+        <title>JavaScript-TP</title>
+    </head>
+    <body>
+        <h1>Introduccion a JavaScript</h1>
+        <button onclick="saludo()">Haz Click</button><br><br>
+        
+        <h2 id="carta">Cambiar Texto</h2>
+        <button onclick="cambiartexto()">Cambiar Texto</button><br><br>
+        
+        <h2>Cambiar Color de Fondo</h2>
+        <button onclick="cambiarfondo()">Cambiar Fondo</button><br><br>
+        
+        <h2>Sumar Numeros</h2>
+        <input type="number" id="numero1">
+        <input type="number" id="numero2"><br><br>
+        <button onclick="sumar()">Sumar</button>
+        <h2 id="Resultado"></h2><br><br>
+        
+        <div class="contenedor">
+            <h1 class="titulo">Contador Interactivo</h1>
+            <p id="valor">0</p>
+            <div class="botones">
+            <button id="sumar">+</button>
+            <button id="restar">-</button>
+            <button id="reset">Reset</button>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
